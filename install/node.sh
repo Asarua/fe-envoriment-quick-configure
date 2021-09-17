@@ -14,7 +14,7 @@ else
 
   if [[ $install =~ ^[Yy]$ ]]; then
     echo "Start install Homebrew"
-    bash `dirname $0`/brew.sh
+    bash `dirname $0`/homebrew.sh
   else
     exit 1
   fi
